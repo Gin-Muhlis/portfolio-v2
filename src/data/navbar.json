@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Home",
+        "path": "/"
+    },
+    {
+        "title": "About",
+        "path": "#about"
+    },
+    {
+        "title": "Skill",
+        "path": "#skill"
+    },
+    {
+        "title": "Portfolio",
+        "path": "#portfolio"
+    },
+    {
+        "title": "Contact",
+        "path": "#about"
+    }
+]
