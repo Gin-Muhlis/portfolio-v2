@@ -4,7 +4,21 @@ import Container from '../elements/Container'
 const Contact = () => {
     return (
         <Container>
-            <div className="w-full block md:flex items-center justify-between gap-10 py-24 " id="contact">
+            <div className="w-full block md:flex items-center justify-between gap-10 py-24 relative" id="contact">
+                <div className='w-full mb-10 md:mb-0'>
+                    <div className="w-full px-5 py-10 rounded-sm bg-skill-gradient text-white border-t border-t-slate-400 border-l border-l-slate-400 font-roboto mb-5 flex items-center justify-center flex-col gap-3">
+                        <img src="/assets/images/gmail.png" alt="Email Image" className='w-10 object-cover' />
+                        <h3 className='text-white font-roboto font-bold text-lg'>
+                            <a href="mailto:ginmuhlis@gmail.com" target='_blank'>ginmuhlis@gmail.com</a>
+                        </h3>
+                    </div>
+                    <div className="w-full px-5 py-10 rounded-sm bg-skill-gradient text-white border-t border-t-slate-400 border-l border-l-slate-400 font-roboto flex items-center justify-center flex-col gap-3">
+                        <img src="/assets/images/github.png" alt="Email Image" className='w-10 object-cover' />
+                        <h3 className='text-white font-roboto font-bold text-lg'>
+                            <a href="https://github.com/Gin-Muhlis" target='_blank'>Gin-Muhlis</a>
+                        </h3>
+                    </div>
+                </div>
                 <div className='w-full'>
                     <h2 className='text-primary font-bold mb-5 text-3xl md:text-4xl font-montserrat'>Get in Touch</h2>
                     <div className="mb-8 font-roboto">
@@ -29,20 +43,7 @@ const Contact = () => {
                         </a>
                     </div>
                 </div>
-                <div className='w-full'>
-                    <div className="w-full px-5 py-10 rounded-sm bg-skill-gradient text-white border-t border-t-slate-400 border-l border-l-slate-400 font-roboto mb-5 flex items-center justify-center flex-col gap-3">
-                        <img src="/assets/images/gmail.png" alt="Email Image" className='w-10 object-cover' />
-                        <h3 className='text-white font-roboto font-bold text-lg'>
-                            <a href="mailto:ginmuhlis@gmail.com" target='_blank'>ginmuhlis@gmail.com</a>
-                        </h3>
-                    </div>
-                    <div className="w-full px-5 py-10 rounded-sm bg-skill-gradient text-white border-t border-t-slate-400 border-l border-l-slate-400 font-roboto flex items-center justify-center flex-col gap-3">
-                        <img src="/assets/images/github.png" alt="Email Image" className='w-10 object-cover' />
-                        <h3 className='text-white font-roboto font-bold text-lg'>
-                            <a href="https://github.com/Gin-Muhlis" target='_blank'>Gin-Muhlis</a>
-                        </h3>
-                    </div>
-                </div>
+
             </div>
         </Container>
     )

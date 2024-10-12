@@ -4,7 +4,7 @@ import Footer from '../elements/Footer'
 
 const Layout = ({children}) => {
   return (
-    <div>
+    <div className='relative'>
         <Navbar />
         {children}
         <Footer />
