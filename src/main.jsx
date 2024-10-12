@@ -3,11 +3,13 @@ import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './index.css';
 import App from './components/pages/App'
+import NotFound from './components/pages/NotFound';
 
 const routes = createBrowserRouter([
   {
     path: '/',
-    element: <App />
+    element: <App />,
+    errorElement: <NotFound />
   }
 ])
 
