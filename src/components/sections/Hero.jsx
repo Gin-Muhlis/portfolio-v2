@@ -5,7 +5,7 @@ import Button from '../elements/Button'
 const Hero = () => {
     return (
         <Container>
-            <div className="hero w-full block md:flex items-center justify-between gap-10 py-5 mb-20 md:mb-20">
+            <div className="hero w-full block md:flex items-center justify-between gap-10 py-5 mb-20">
                 <div className='mb-16 md:mb-16'>
                     <span className="text-slate-300 inline-block mb-1 font-roboto">Hi, I'm Gin Gin</span>
                     <h1 className='text-primary font-raleway text-6xl font-bold shadow-text-primary'>Full Stack</h1>

@@ -9,3 +9,7 @@
 .shadow-text-primary {
     text-shadow: 0px 0px 10px rgba(1, 255, 244, .8);
 }
+
+html {
+    scroll-behavior: smooth;
+}

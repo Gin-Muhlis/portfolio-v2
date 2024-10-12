@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from './Container'
-import { Link } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link'
 import EachUtils from '../../utils/EachUtils'
 import DATA_NAVLIST from '../../data/navbar.json'
 import UseNavbar from '../../hooks/use/UseNavbar'
@@ -71,8 +71,9 @@ const Navbar = () => {
                                     render={(item, index) => (
                                         <li key={index}>
                                             <Link
+                                                smooth
                                                 className="font-roboto text-white block"
-                                                to={item.path}
+                                                to='/#about'
                                                 onClick={() => setIsOpen(false)} // Close menu on link click
                                             >
                                                 {item.title}
