@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Zie Koperasi",
+        "description": "Zie Koperasi is a digital platform designed to streamline the management of cooperatives in a modern and efficient way. Featuring comprehensive tools for managing savings, loans, installment payments, and selling office supplies (ATK), Zie Koperasi makes it easier for cooperative members to access financial services conveniently.",
+        "link_github": "https://github.com/Gin-Muhlis/koperasi-app",
+        "image": "/assets/images/koperasi.png"
+    },
+    {
+        "title": "Juragan Event",
+        "description": "Juragan Event is a web-based platform designed to simplify the process of organizing events and selling tickets. Whether you are holding a concert, seminar, or workshop, Juragan Event provides complete solutions for event organizers and participants.",
+        "link_github": "https://github.com/Gin-Muhlis/Juragan-Event",
+        "image": "/assets/images/juragan.png"
+    },
+    {
+        "title": "Zie Rules",
+        "description": "Zie Rules is an admin panel website designed to monitor and manage data for SMK Negeri 1 Cianjur, including students, teachers, violations, and achievements. It also serves as an attendance management system. Parents can access Zie Rules to track their children's attendance, violations, achievements, and assignments. Additionally, Zie Rules functions as a backend API.",
+        "link_github": "https://github.com/Gin-Muhlis/koperasi-app",
+        "image": "/assets/images/zierules.png"
+    }
+]
