@@ -13,11 +13,8 @@ const About = () => {
                         Laravel, React with JavaScript and TypeScript, Tailwind, and MySQL for database management. My
                         experience includes database creation, API implementation, and front-end API integration.</p>
                     <div className="w-full font-bold flex items-center justify-start gap-5 flex-wrap font-roboto">
-                        <div className="flex items-center justify-center text-center text-white rounded-md bg-bg-second bg-opacity-20 border border-bg-second px-6 md:px-12 py-2 shadow-cust-shad-primary text-xs md:text-sm">
-                            Front-End Developer
-                        </div>
-                        <div className="flex items-center justify-center text-center text-white rounded-md bg-bg-second bg-opacity-20 border border-bg-second px-6 md:px-12 py-2 shadow-cust-shad-primary text-xs md:text-sm">
-                            Back-End Developer
+                        <div className="flex items-center justify-center text-center text-white rounded-md bg-bg-second bg-opacity-20 border border-bg-second px-6 md:px-12 py-3 shadow-cust-shad-primary text-md">
+                            Web Developer
                         </div>
                     </div>
                 </div>
