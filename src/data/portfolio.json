@@ -14,7 +14,7 @@
     {
         "title": "Zie Rules",
         "description": "Zie Rules is an admin panel website designed to monitor and manage data for SMK Negeri 1 Cianjur, including students, teachers, violations, and achievements. It also serves as an attendance management system. Parents can access Zie Rules to track their children's attendance, violations, achievements, and assignments. Additionally, Zie Rules functions as a backend API.",
-        "link_github": "https://github.com/Gin-Muhlis/koperasi-app",
+        "link_github": "https://github.com/Gin-Muhlis/ZieRules",
         "image": "/assets/images/zierules.png"
     }
 ]
