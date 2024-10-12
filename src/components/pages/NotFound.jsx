@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const NotFound = () => {
     return (
-        <section class="bg-white dark:bg-gray-900">
+        <section class="bg-bg-main">
             <div class="py-8 px-4 mx-auto max-w-screen-xl h-screen lg:py-16 lg:px-6 flex items-center justify-center">
                 <div class="mx-auto max-w-screen-sm text-center">
                     <h1 class="mb-4 text-7xl tracking-tight font-extrabold lg:text-9xl text-primary dark:text-primary">404</h1>
