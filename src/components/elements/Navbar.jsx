@@ -64,7 +64,7 @@ const Navbar = () => {
 
                     {/* Mobile menu */}
                     {isOpen && (
-                        <div className="absolute top-16 left-0 w-full transition duration-500 bg-bg-second md:hidden">
+                        <div className="absolute top-16 left-0 w-full transition duration-500 bg-bg-second z-50 md:hidden">
                             <ul className="flex flex-col items-center gap-5 p-5">
                                 <EachUtils
                                     dataList={DATA_NAVLIST}

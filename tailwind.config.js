@@ -18,6 +18,10 @@ export default {
       'roboto': ['Roboto', 'sans-serif'],
       'montserrat': ['Montserrat', 'sans-serif'],
       'raleway': ['Raleway', 'sans-serif'],
+    },
+    boxShadow: {
+      'cust-shad-primary': '4px 4px 8px rgba(1, 255, 244, 0.3)',
+      'cust-shad-text-primary': '0 0 10px rgba(1, 255, 244, 0.3)',
     }
   },
   plugins: [],
