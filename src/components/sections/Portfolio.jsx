@@ -7,9 +7,9 @@ import { Link } from 'react-router-dom'
 const Portfolio = () => {
     return (
         <Container>
-            <div className="w-full py-16 md:py-0 mb-20">
+            <div className="w-full py-24">
                 <h2 className='text-primary font-bold mb-5 text-3xl md:text-4xl text-center font-montserrat'>What Have I Made?</h2>
-                <EachUtils dataList={DATA_PORTFOLIO} render={(item, index) => <a target='_blank' href={item.link_github} className="w-full block md:flex items-center justify-center mb-20" key={index}>
+                <EachUtils dataList={DATA_PORTFOLIO} render={(item, index) => <a target='_blank' href={item.link_github} className={`w-full block md:flex items-center justify-center ${index != DATA_PORTFOLIO.length - 1 ? 'mb-20' : ''}`} key={index}>
                     <div className='font-roboto mb-3'>
                         <h3 className={`font-bold mb-2 text-white text-2xl relative z-20 ${(index + 1) % 2 == 0 ? 'md:-translate-x-5 md:text-end' : 'md:translate-x-5'}`}>{item.title}</h3>
                         <div className={`bg-white bg-opacity-20 backdrop-blur-md rounded-md text-white p-4 z-20 relative ${(index + 1) % 2 == 0 ? 'md:-translate-x-5' : 'md:translate-x-5'}`}>

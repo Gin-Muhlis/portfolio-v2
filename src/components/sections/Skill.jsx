@@ -4,7 +4,7 @@ import Container from '../elements/Container'
 const Skill = () => {
     return (
         <Container>
-            <div className="w-full py-16 md:py-0 mb-20">
+            <div className="w-full py-24">
                 <h2 className='text-primary font-bold mb-5 text-3xl md:text-4xl text-center font-montserrat'>What I Can?</h2>
                 <div className="w-full block md:flex items-center justify-center gap-5">
                     <div className="w-full md:w-1/2 p-5 rounded-sm bg-skill-gradient text-white border-t border-t-slate-400 border-l border-l-slate-400 font-roboto mb-5 z-20 relative">

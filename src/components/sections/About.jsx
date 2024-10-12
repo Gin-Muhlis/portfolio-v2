@@ -4,7 +4,7 @@ import Container from '../elements/Container'
 const About = () => {
     return (
         <Container>
-            <div className="w-full block md:flex items-center justify-between py-16 md:py-0 mb-20" id="about">
+            <div className="w-full block md:flex items-center justify-between py-24" id="about">
                 <img src="/assets/images/profile.png" alt="Profile Image" className='w-72 h-96 rounded object-cover shadow-cust-shad-primary mb-10 md:mb-0 mr-0 md:mr-20' />
                 <div>
                     <h2 className='text-primary font-bold mb-4 text-3xl md:text-4xl font-montserrat'>Who am I?</h2>
