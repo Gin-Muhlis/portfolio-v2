@@ -71,9 +71,8 @@ const Navbar = () => {
                                     render={(item, index) => (
                                         <li key={index}>
                                             <Link
-                                                smooth
                                                 className="font-roboto text-white block"
-                                                to='/#about'
+                                                to={item.path}
                                                 onClick={() => setIsOpen(false)} // Close menu on link click
                                             >
                                                 {item.title}
